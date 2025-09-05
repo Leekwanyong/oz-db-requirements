@@ -63,6 +63,13 @@ INSERT INTO products (name, price, category_id, brand_id, image_url) VALUES
 ('맥북 프로', 2500000, 1, 1, 'https://picsum.photos/400/300?random=3'),
 ('나이키 운동화', 150000, 2, 3, 'https://picsum.photos/400/300?random=6');
 INSERT INTO users (name) VALUES ('테스트 사용자');
+
+-- 장바구니는 비어있는 상태로 시작
+-- (사용자가 "장바구니에 추가" 버튼을 눌러야 데이터가 생성됨)
+
+-- 확인
+SELECT COUNT(*) FROM products;
+SELECT COUNT(*) FROM cart; 
 ```
 
 ### 3. 환경변수 설정
