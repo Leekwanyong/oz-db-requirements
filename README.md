@@ -96,3 +96,4 @@ src/
 
 - **힌트 코드**: [현재 저장소](https://github.com/Leekwanyong/oz-db-requirements)
 - **완성 예시**: [정답 코드](https://github.com/Leekwanyong/oz-db)
+- **완성 예시**: [완성시 화면](oz-db.vercel.app)
